@@ -1,6 +1,6 @@
-package cat;
+package choice.model;
 
-public class Cat
+public class YourThing
 {
 
 
@@ -10,7 +10,7 @@ public class Cat
 	private boolean hasNoses;
 	private int armCount;
 	
-	public Cat()
+	public YourThing()
 	{
 	//Declaration section
 	//Data member section
@@ -32,13 +32,13 @@ public class Cat
 		 
 	}
 	
-	public Cat(String name)
+	public YourThing(String name)
 	
 	{
 		this.name = name;
 	}
 	
-	public Cat(String name, double legCount, int eyeCount, boolean hasNose, int armCount)
+	public YourThing(String name, double legCount, int eyeCount, boolean hasNose, int armCount)
 	{
 		this.legCount = legCount;
 		this.eyeCount = eyeCount;

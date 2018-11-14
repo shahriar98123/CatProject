@@ -1,20 +1,21 @@
-package catcontroller;
+package choice.controller;
 
-import cat.Cat;
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class CatController
+import choice.model.YourThing;
+
+public class ChoiceController
 {
 	private static final boolean True = false;
-	private Cat myCat;
-	private Cat userCat;
+	private YourThing myCat;
+	private YourThing userCat;
 	private Scanner inputScanner;
 	
-public CatController()
+public ChoiceController()
 {
-	myCat = new Cat("Mishka, 2.0, 2, True, 2");
-	userCat = new Cat();
+	myCat = new YourThing("Mishka, 2.0, 2, True, 2");
+	userCat = new YourThing();
 	inputScanner = new Scanner(System.in);
 
 }
