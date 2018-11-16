@@ -1,6 +1,9 @@
 package choice.model;
 
 public class YourThing
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
+
 {
 
 
@@ -10,7 +13,7 @@ public class YourThing
 	private boolean hasNoses;
 	private int armCount;
 	
-	public YourThing()
+	public void start()
 	{
 	//Declaration section
 	//Data member section
